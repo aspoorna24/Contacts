@@ -38,7 +38,7 @@ router.post('/add',upload,(req,res)=>{
 router.get("/",(req,res)=>{
     Info.find()
     .then((users)=>{res.render('index',{title:'Home Page',users:users})})
-    .catch((error)=>{console.log(err)})
+    .catch((error)=>{console.log(error)})
 });
 
 router.get('/add',(req,res)=>{

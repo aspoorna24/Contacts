@@ -1,0 +1,1 @@
+The Application built on MONGODB, NODE JS and EXPRESS JS where the images are also uploaded
